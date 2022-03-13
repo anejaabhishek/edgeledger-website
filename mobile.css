@@ -1,0 +1,35 @@
+
+@media (max-width:768px) {
+    .navbar {
+        flex-direction: column;
+        height: 120px;
+        padding: 15px;
+    }
+
+    .navbar a {
+        padding: 10px;
+        margin: 0 3px;
+    }
+
+    .flex-items {
+        flex-direction: column;
+    }
+
+    .flex-columns .column{
+        flex: 100%;
+        max-width: 100%;
+    }
+
+    .flex-columns .column-2 {
+        align-items: center;
+    }
+
+    .flex-grid .column {
+        flex: 50%;
+        max-width: 50%;
+    }
+
+    .team img {
+        width: 70%;
+    }
+}
